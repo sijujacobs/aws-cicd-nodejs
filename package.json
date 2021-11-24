@@ -1,0 +1,22 @@
+{
+  "name": "aws-cicd-nodejs",
+  "version": "1.0.0",
+  "description": "A tutorial on nodejs aws ci-cd deployment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sijujacobs/aws-cicd-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sijujacobs/aws-cicd-nodejs/issues"
+  },
+  "homepage": "https://github.com/sijujacobs/aws-cicd-nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
