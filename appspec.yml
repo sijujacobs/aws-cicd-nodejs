@@ -5,11 +5,11 @@ files:
     destination: /home/ec2-user/aws-cicd-nodejs-app
 hooks:
   ApplicationStop:
-    - location: scriopt/application_stop.sh
+    - location: scripts/application_stop.sh
       timeout: 300
       runas: ec2-user
   BeforeInstall:
-    - location: scriopt/before_install.sh
+    - location: scripts/before_install.sh
       timeout: 300
       runas: ec2-user
   ApplicationStart:
