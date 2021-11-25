@@ -23,7 +23,7 @@ app.get('/products', (req, res) => {
         {
             productId: '1003',
             price: '770',
-            color: 'Green'
+            color: 'Red'
         }
     ])
 });
